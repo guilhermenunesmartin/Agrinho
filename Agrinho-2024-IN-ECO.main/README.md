@@ -1,2 +1,0 @@
-# projeto-do-agrinho
-agrinho
