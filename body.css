@@ -1,0 +1,439 @@
+
+:root {
+    ---verde: #455b35;
+    ---bege: #fffbf9;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: var(---bege);
+    font-family: 'Montserrat';   
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+/*barra de scroll */
+
+::-webkit-scrollbar {
+    z-index: 1;
+    width: 10px;
+    
+  }
+
+  ::-webkit-scrollbar-track {
+    background:   
+   var(---bege);
+    border-radius: 10px; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(---verde); 
+    border-radius: 10px;
+  }
+
+/* texto principal(titulo) */
+
+.titulo {
+    z-index: 1;
+    background-image: url(imagens/verduras_Inteiras-01.jpg);
+    background-size: 102vw;
+    padding-top: 23vw;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 330px;
+}
+
+.fundot {
+    z-index: 2;
+    background-color: var(---bege);
+}
+
+/* titulo SOBRE NOS */
+
+.sobrenos{
+    z-index: 2;
+    background-color: var(---verde);
+    color: white;
+    padding: 20px;
+    margin-top: 00px;
+
+}
+
+.sobre{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(---bege);
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* texto Sobre nos */
+
+.texto1 {
+    text-align: center;
+    
+}
+
+.texto2 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.texto2:last-child {
+    margin-bottom: 40px;
+
+}
+
+/* explicacoes (horta e agricultura) */
+
+/* horta */
+
+.horta {
+    position: relative;
+}
+
+.horta-titulo {
+    text-align: right;
+    margin-top: 10vw;
+    margin-right: 20.2vw; 
+    margin-bottom: 2vw;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+
+.horta-img {
+    text-align: left;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: -2vw;
+    width: 70vw;
+    position: absolute;
+}
+
+.quadrado4{
+    position: absolute;
+    text-align: center;
+    top: 0vw;
+    left: 15vw;
+    width: 40vw; 
+    height: 20vw;
+    background-color: rgb(165, 216, 165);
+    border-radius: 30px;
+
+}
+
+.horta-paragrafo{
+    position: absolute;
+    left: 60%;
+    
+}
+
+.horta-texto{
+    margin-bottom: 0.5vw;
+    font-weight: 400;
+}
+
+
+/* agricultura */
+
+.agricultura {
+    position: relative;
+}
+
+.agricultura-titulo {
+    z-index: 5;
+    text-align: left;
+    margin-top: 25vw;
+    margin-left: 15.5vw; 
+    margin-bottom: 2vw; 
+    z-index: 1;  
+    font-weight: bold;
+    font-size: 2vw;
+    color: black;
+}
+
+.agricultura-img{
+    position: absolute;
+    text-align: right;
+    z-index: 3;
+    margin-left: 29vw;
+    margin-top: -20vw;
+    width: 70vw;
+}
+
+.quadrado5{
+    position: absolute;
+    text-align: center;
+    top: -1vw;
+    left: 50vw;
+    width: 40vw; 
+    height: 20vw;
+    background-color: rgb(165, 216, 165);
+    border-radius: 30px;
+
+}
+
+.agricultura-paragrafo {
+    position: absolute;
+    right: 60%;
+
+}
+
+.agricultura-texto {
+    margin-bottom: 0.5vw;
+    font-weight: 400;
+}
+
+/*aprenda a fazer a sua horta em casa!  */
+
+.aprenda{
+    margin-top: 17vw;
+    background-color: var(---verde);
+    color: var(---bege);
+    position: relative;
+}
+
+.aprenda-titulo{
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.aprenda-texto{
+    text-align: center;
+    margin-bottom: 0.3vw;
+}
+
+.aprenda-texto:last-child{
+    padding-bottom: 20vw;
+}
+
+.aprenda-cenoura{
+    width: 12vw;
+    position: absolute;
+    top: 24vw;
+    left: 6vw;
+    transform: rotate(50deg);
+    z-index: 4;
+}
+
+.aprenda-limao{
+    width: 12vw;
+    position: absolute;
+    right: 4.5vw;
+    top: 25vw;
+    z-index: 4;
+}
+
+
+
+.container {
+
+    display: inline-block;
+    padding: 20px; /* Espaço interno da container */
+  }
+
+  .quadrado{
+    display: flex;
+  }
+
+  .quadrado1{
+    position: absolute;
+    top: 12vw;
+    left: 9vw;
+    width: 25vw; 
+    height: 16vw;
+    background-color: var(---bege);
+    border-radius: 30px;
+  }
+
+    .aprenda1{
+        width: 23vw;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        border-radius: 1vw; 
+    }
+
+    .aprenda2{
+        width: 22vw;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        border-radius: 1vw; 
+    }
+
+    .aprenda3{
+        width: 23vw;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        border-radius: 1vw;     
+    }
+
+  .quadrado2{
+    position: absolute;
+    text-align: center;
+    top: 12vw;
+    left: 37vw;
+    width: 25vw; 
+    height: 16vw;
+    background-color: var(---bege);
+    border-radius: 30px;
+  }
+
+  .quadrado3{
+    position: absolute;
+    top: 12vw;
+    left: 65vw;
+    width: 25vw; 
+    height: 16vw;
+    background-color: var(---bege);
+    border-radius: 30px;
+  }
+
+
+/* saiba mais */
+
+.saiba-mais{
+    text-align: center;
+    margin-left: 45vw;
+    margin-bottom: 2vw;
+    color: var(---verde);
+    border: none;
+    padding: 15px 32px;
+    border-radius: 4px;
+    background-color: rgb(121, 177, 121);
+    font-size: 1vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .conjuntoq{
+        position: absolute;
+        top: 7vw;
+    }
+    .saiba-mais{
+        margin-top: 5vw;
+    }
+}
+@media (max-width: 768px) {
+    .titulo {
+        background-position-x: -22vw;
+        background-position-y: 25vw;
+        background-repeat: no-repeat;
+        background-size: 150vw;
+        font-size: 3.5vw;
+        text-align: center;
+        padding-bottom: 30vw;
+        padding-top: 60vw;
+    }
+    .horta-titulo{
+        font-size: 5vw;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .agricultura-titulo{
+        font-size: 5vw;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;       
+    }
+    .horta{
+        margin-bottom: 50vw;
+    }
+    .horta-paragrafo{
+        left: 0;
+        margin-left: 2vw;
+    }
+    .horta-img{
+        width: 00vw;
+        text-align: right;
+    }
+    .agricultura{
+        margin-top: 50vw;
+        margin-bottom: 50vw;
+    }
+    .agricultura-paragrafo{
+        text-align: left;
+        left: 0;
+        margin-left: 2vw;
+        margin-right: -60vw;
+        margin-bottom: 50vw;
+    }
+    .agricultura-img{
+        width: 0;
+    }
+
+    .aprenda{
+        margin-top: 70vw;
+    }
+    .aprenda-titulo{
+        font-size: 4vw;
+        padding-top: 5vw;
+    }
+    .aprenda-texto{
+        font-size: 3vw;
+        font-weight: 400;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .aprenda-texto:last-child{
+        margin-bottom: 70vw;
+    }
+    .aprenda-cenoura{
+        width: 30vw;
+        top:110vw;
+        left: 1vw;
+    }
+    .aprenda-limao{
+        width: 30vw;
+        top: 45vw;
+        left: 70vw;
+    }
+
+    .quadrado1{
+        width: 0;
+    }
+    .quadrado2{
+        top: 50vw;
+        left: 10vw;
+        width: 80vw;
+        height: 70vw;
+    }
+    .quadrado3{
+        width: 0;
+    }
+    .quadrado4{
+        width: 0;
+    }
+
+    .quadrado5{
+        width: 0;
+    }
+
+
+    .aprenda1{
+        width: 0;
+    }
+    .aprenda2{
+        width: 0;
+    }
+    .aprenda3{
+        width: 0;
+    }
+    .saiba-mais{
+        font-size: 3vw;
+        padding: 2vw 5vw;
+        margin-left: 30vw;
+    }
+}
