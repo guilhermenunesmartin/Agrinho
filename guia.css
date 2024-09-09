@@ -1,0 +1,107 @@
+/* configuracoes gerais */
+
+.passo-titulo{
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.passo-1-txt .txt{
+    margin-top: 1.5vw;
+    display: block;
+}
+
+.passo-1{
+    display: flex;
+    margin-top: 3vw;
+}
+
+.passo-1-txt{
+    width: 50vw;
+    font-size: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.passo-2{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
+.passo-3{
+    display: flex;
+    margin-top: 3vw;
+}
+
+.passo-4{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
+.espaco5{
+    margin-top: -8vw;
+}
+
+.passo-5{
+    display: flex;
+    margin-top: 3vw;
+}
+
+.passo-6{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
+@media (max-width: 1400px) {
+    .passo-titulo{
+        font-weight: bolder;
+        font-size: 4vw;
+    }
+    .passo-1-txt .txt{
+        margin-top: 1.5vw;
+        display: flex;
+    }
+    
+    .passo-1{
+        display: flex;
+        margin-top: 5vw;
+    }
+    
+    .passo-1-txt{
+        width: 100vw;
+        font-size: 1.5vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo{
+        background-image: none;
+        font-size: 7vw;
+        margin-bottom: -10vw;
+        padding-top: 50vw;
+    }
+    img{
+        width: 50vw;
+    }
+    .passo-1-txt .txt{
+        margin-top: 1.5vw;
+        display: flex;
+    }
+    
+    .passo-1{
+        display: flex;
+        margin-top: 5vw;
+    }
+    
+    .passo-1-txt{
+        width: 100vw;
+        font-size: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+}
