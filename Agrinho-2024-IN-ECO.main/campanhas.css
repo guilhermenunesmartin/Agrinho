@@ -1,0 +1,84 @@
+
+header{
+    position: fixed;
+    top: 0;
+}
+
+.texto-1 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 9vw;
+    margin-left: 3vw;
+    margin-right: 5vw;
+}
+
+.exemplos{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.link{
+    color: blue;
+}
+.exemplo-1{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.exemplo-2{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.exemplo-3{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.chao{
+    text-align: center;
+    left: 5vw;
+    width: 90vw;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .texto-1{
+        margin-top: 40vw;
+    }
+    .exemplo-1{
+        margin-top: 1.5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    
+    .exemplo-2{
+        margin-top: 1.5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    
+    .exemplo-3{
+        margin-top: 1.5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+}
